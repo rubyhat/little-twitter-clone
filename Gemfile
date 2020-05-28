@@ -3,6 +3,18 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 
+# Bulma styles
+gem 'bulma-rails', '~> 0.6.1'
+
+# Simple form
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
+
+# Grabatar image tag
+gem 'gravatar_image_tag', '~> 1.2'
+
+# Devise authentication
+gem 'devise', '~> 4.7', '>= 4.7.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 # Use sqlite3 as the database for Active Record
@@ -40,6 +52,11 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # Better errors
+  gem 'better_errors', '~> 2.7', '>= 2.7.1'
+  # Guard live reload
+  gem 'guard', '~> 2.16', '>= 2.16.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
 
 group :test do
