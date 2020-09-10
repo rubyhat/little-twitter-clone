@@ -7,3 +7,5 @@ Environment
 * Ruby version - 2.6.3p62
 
 * Rails version - Rails 6.0.2.2
+
+* Live demo - https://twitter-rails-clone-by-rubyhat.herokuapp.com/
